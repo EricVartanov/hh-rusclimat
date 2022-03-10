@@ -1,0 +1,325 @@
+@font-face {
+    font-family: "Tahoma";
+    src: url("Tahoma-Bold.eot");
+    src: local("Tahoma Bold"), local("Tahoma-Bold"),
+        url(../fonts/Tahoma-Bold.eot) format("embedded-opentype"),
+        url(../fonts/Tahoma-Bold.woff2) format("woff2"),
+        url(../fonts/Tahoma-Bold.woff) format("woff"),
+        url(../fonts/Tahoma-Bold.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Tahoma";
+    src: url("Tahoma.eot");
+    src: local("Tahoma"), url(../fonts/Tahoma.eot) format("embedded-opentype"),
+        url(../fonts/Tahoma.woff2) format("woff2"),
+        url(../fonts/Tahoma.woff) format("woff"),
+        url(../fonts/Tahoma.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Verdana";
+    src: url("Verdana.eot");
+    src: local("Verdana"), url(../fonts/Verdana.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.idc-section {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1250px;
+    margin: 0 auto;
+    min-width: 1250px;
+    position: relative;
+    z-index: 0;
+}
+
+img,
+svg {
+    width: 100%;
+    display: block;
+}
+
+.idc-container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.idc-bg-wrapper[style^="background-image"] {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.idc-bg-wrapper {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 50%;
+    position: absolute;
+    z-index: -1;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.idc-bg-wrapper[style^="background-image"]:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    -webkit-overflow-scrolling: touch;
+    user-select: none;
+    /* standerd */
+    -moz-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    /* firefox specific */
+    -webkit-user-select: none;
+    /* Chrome, Opera and Safari*/
+    -ms-user-select: none;
+    /* IE, ms-edge */
+    overflow-x: hidden;
+}
+
+.idc-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.idc-text-1,
+.idc-text-2,
+.idc-text-2b,
+.idc-text-3,
+.idc-text-3b,
+.idc-text-4,
+.idc-text-5,
+.idc-text-5b,
+.idc-text-6,
+.idc-text-6b,
+.idc-text-7,
+.idc-text-7b,
+.idc-text-8,
+.idc-text-8b {
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+    margin: 0;
+}
+.idc-text-1 {
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 1px;
+}
+.idc-text-2 {
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+}
+.idc-text-2b {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+}
+.idc-text-3 {
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.2px;
+}
+.idc-text-3b {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.2px;
+}
+.idc-text-4 {
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+}
+.idc-text-5 {
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+}
+.idc-text-5b {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+}
+.idc-text-6 {
+    font-size: 16px;
+    line-height: 19px;
+}
+.idc-text-6b {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+.idc-text-7 {
+    font-size: 14px;
+    line-height: 17px;
+}
+.idc-text-7b {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
+.idc-text-8 {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.195195px;
+}
+.idc-text-8b {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.195195px;
+}
+
+.idc-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+/* *************head************ */
+.idc-head .idc-container {
+    padding-top: 117px;
+    padding-bottom: 30px;
+}
+.idc-head .idc-text-block {
+    max-width: 665px;
+    margin: 0 auto;
+}
+.idc-head .idc-txt1 {
+    width: 339px;
+}
+.idc-head .idc-txt2 {
+    width: 535px;
+    margin-top: 48px;
+    margin-left: auto;
+}
+.idc-head .idc-txt3 {
+    width: 477px;
+    margin-top: 38px;
+}
+.idc-head .idc-people-block {
+    margin-top: 90px;
+}
+.idc-head .idc-woman {
+    width: 512px;
+}
+.idc-head .idc-man {
+    width: 485px;
+    margin-left: auto;
+}
+/* ************about************ */
+.idc-about .idc-container {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background: #0066b1;
+}
+.idc-about .idc-title {
+    width: 463px;
+    margin-left: 50px;
+}
+.idc-about .idc-text-4 {
+    color: #ffffff;
+    max-width: 590px;
+    margin-left: auto;
+    margin-right: 50px;
+}
+.idc-about .idc-swiper-block {
+    margin-top: 80px;
+}
+.idc-about .idc-text-3b,
+.idc-about .idc-text-5 {
+    color: #ffffff;
+}
+.idc-content-info {
+    padding-top: 32px;
+    padding-left: 16px;
+}
+.idc-about .idc-list {
+    padding-left: 5px;
+    margin-top: 20px;
+}
+.idc-about .idc-list-item {
+    position: relative;
+    padding-left: 15px;
+}
+.idc-about .idc-list-item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+.idc-swiper-pagination {
+    text-align: center;
+    margin-top: 50px;
+    z-index: 5;
+}
+.swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    margin: 0 7.5px !important;
+
+    background: rgba(255, 255, 255, 0.5);
+}
+.swiper-pagination-bullet-active {
+    transition: all 0.3s;
+    width: 40px;
+    border-radius: 50px;
+    background: #ffffff;
+}
+.idc-swiper-button-next,
+.idc-swiper-button-prev {
+    position: absolute;
+    width: 24px;
+    height: 59px;
+    top: 36%;
+    z-index: 10;
+    cursor: pointer;
+}
+.idc-swiper-button-next {
+    right: 24px;
+}
+.idc-swiper-button-prev {
+    left: 24px;
+}
+/* *************gallery************ */
+.idc-gallery .idc-container{
+    padding-top: 30px;
+}
+.idc-gallery .idc-img{
+    flex-shrink: 0;
+    width: 33.3%;
+}
+
+/* *************achives************ */
+
+/* *************life************ */
