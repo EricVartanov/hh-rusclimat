@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: "Tahoma";
     src: url("Tahoma-Bold.eot");
@@ -241,6 +243,7 @@ body {
 .idc-about .idc-title {
     width: 463px;
     margin-left: 50px;
+    padding-top: 10px;
 }
 .idc-about .idc-text-4 {
     color: #ffffff;
@@ -291,6 +294,8 @@ body {
     background: rgba(255, 255, 255, 0.5);
 }
 .swiper-pagination-bullet-active {
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s;
     width: 40px;
     border-radius: 50px;
@@ -318,7 +323,17 @@ body {
 .idc-gallery .idc-img {
     width: 33.333%;
 }
-
+.idc-gallery .idc-img > img {
+    height: 100%;
+}
+.idc-gallery.idc-1 .idc-img:nth-child(10),
+.idc-gallery.idc-2 .idc-img:nth-child(10),
+.idc-gallery.idc-2 .idc-img:nth-child(11) {
+    display: none;
+}
+.idc-gallery.idc-3 .idc-img:nth-child(10){
+    display: none;
+}
 /* *************your************ */
 .idc-your .idc-container {
     padding-top: 30px;
@@ -334,15 +349,20 @@ body {
 }
 .idc-your .idc-item {
     width: 50%;
-    flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
 }
 .idc-your .idc-item-img {
     width: 50%;
 }
 .idc-your .idc-item-txt {
-    flex: 1;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
     height: 100%;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding-left: 20px;
 }
 .idc-your .idc-text-2 {
@@ -365,7 +385,9 @@ body {
     padding-top: 45px;
     padding-bottom: 63px;
     padding-left: 50px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .idc-pluses .idc-title {
     width: 639px;
@@ -390,28 +412,30 @@ body {
     margin-top: 5px;
 }
 
-/* *************footer************ */
-.idc-footer .idc-container {
+/* *************story************ */
+.idc-story .idc-container {
     padding-top: 30px;
 }
-.idc-footer .idc-title-block {
-    align-items: center;
+.idc-story .idc-title-block {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
-.idc-footer .idc-title-wrapper {
+.idc-story .idc-title-wrapper {
     padding-top: 32px;
     padding-bottom: 40px;
     background: #0066b1;
     width: 544px;
 }
-.idc-footer .idc-title {
+.idc-story .idc-title {
     width: 360px;
     margin: 0 auto;
 }
-.idc-footer .idc-text-block {
+.idc-story .idc-text-block {
     max-width: 625px;
     margin-left: auto;
 }
-.idc-footer .idc-text-block .idc-text-3b {
+.idc-story .idc-text-block .idc-text-3b {
     margin-top: 10px;
 }
 
@@ -419,7 +443,9 @@ body {
 .idc-man-block {
     background: #85b7e3;
     width: 50%;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .idc-man-block {
     padding-right: 25px;
@@ -431,21 +457,24 @@ body {
     padding-right: 56px;
     padding-top: 34px;
 }
-.idc-footer .idc-man {
+.idc-story .idc-man {
     width: 422px;
     margin-left: auto;
 }
-.idc-footer .idc-woman {
+.idc-story .idc-woman {
     width: 357px;
     margin-right: auto;
+    margin-bottom: -1px;
 }
-.idc-footer .idc-play-wrapper {
+.idc-story .idc-play-wrapper {
     display: block;
 }
 .idc-play-link {
     max-width: 160px;
     text-decoration: none;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .idc-play-wrapper .idc-text-5 {
     color: #ffffff;
@@ -458,23 +487,26 @@ body {
     height: 65px;
     margin-left: 8px;
 }
-.idc-footer .idc-bottom {
+
+/* *****************footer*************** */
+.idc-footer .idc-container {
     padding-top: 20px;
     padding-bottom: 30px;
+    background: -o-linear-gradient(352.53deg, #077dd3 36.26%, #0066b1 66.02%);
     background: linear-gradient(97.47deg, #077dd3 36.26%, #0066b1 66.02%);
 }
 .idc-footer .idc-icon {
     margin: 0 auto;
     width: 56px;
 }
-.idc-footer .idc-bottom .idc-text-4 {
+.idc-footer .idc-text-4 {
     color: #ffffff;
     margin-top: 30px;
     text-align: center;
 }
 .idc-ps {
+    margin: 0;
     text-align: center;
-
     margin-top: 25px;
     font-size: 12px;
     line-height: 14px;
