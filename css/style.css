@@ -323,9 +323,7 @@ body {
 .idc-gallery .idc-img {
     width: 33.333%;
 }
-.idc-gallery .idc-img > img {
-    height: 100%;
-}
+
 .idc-gallery.idc-1 .idc-img:nth-child(10),
 .idc-gallery.idc-2 .idc-img:nth-child(10),
 .idc-gallery.idc-2 .idc-img:nth-child(11) {

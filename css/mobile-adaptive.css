@@ -1,5 +1,3 @@
-
-
 @media (max-width: 1339px) {
     .idc-section {
         max-width: 100%;
@@ -105,8 +103,8 @@
         padding-left: 36px;
         padding-right: 28px;
         -webkit-box-align: start;
-            -ms-flex-align: start;
-                align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
     }
     .idc-pluses .idc-title {
         width: 412px;
@@ -324,8 +322,8 @@
     .idc-pluses .idc-title-block {
         padding: 15px 19px;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
     }
     .idc-pluses .idc-title {
         width: 253px;
@@ -507,36 +505,36 @@
     .idc-gallery .idc-img {
         width: 50%;
         -webkit-box-ordinal-group: 1;
-            -ms-flex-order: 0;
-                order: 0;
+        -ms-flex-order: 0;
+        order: 0;
     }
     .idc-gallery.idc-1 .idc-img:nth-child(7),
     .idc-gallery.idc-1 .idc-img:nth-child(8) {
         -webkit-box-ordinal-group: 4;
-            -ms-flex-order: 3;
-                order: 3;
+        -ms-flex-order: 3;
+        order: 3;
     }
 
     .idc-gallery.idc-1 .idc-img:nth-child(5) {
         -webkit-box-ordinal-group: 3;
-            -ms-flex-order: 2;
-                order: 2;
+        -ms-flex-order: 2;
+        order: 2;
     }
     .idc-gallery.idc-1 .idc-img:nth-child(6) {
         -webkit-box-ordinal-group: 2;
-            -ms-flex-order: 1;
-                order: 1;
+        -ms-flex-order: 1;
+        order: 1;
     }
     .idc-gallery.idc-1 .idc-img:nth-child(9) {
         -webkit-box-ordinal-group: 6;
-            -ms-flex-order: 5;
-                order: 5;
+        -ms-flex-order: 5;
+        order: 5;
     }
     .idc-gallery.idc-1 .idc-img:nth-child(10) {
         display: block;
         -webkit-box-ordinal-group: 5;
-            -ms-flex-order: 4;
-                order: 4;
+        -ms-flex-order: 4;
+        order: 4;
     }
 
     .idc-gallery.idc-2 .idc-img:nth-child(1) {
@@ -544,36 +542,36 @@
     }
     .idc-gallery.idc-2 .idc-img:nth-child(4) {
         -webkit-box-ordinal-group: 3;
-            -ms-flex-order: 2;
-                order: 2;
+        -ms-flex-order: 2;
+        order: 2;
     }
     .idc-gallery.idc-2 .idc-img:nth-child(5) {
         -webkit-box-ordinal-group: 2;
-            -ms-flex-order: 1;
-                order: 1;
+        -ms-flex-order: 1;
+        order: 1;
     }
     .idc-gallery.idc-2 .idc-img:nth-child(6),
     .idc-gallery.idc-2 .idc-img:nth-child(7) {
         -webkit-box-ordinal-group: 4;
-            -ms-flex-order: 3;
-                order: 3;
+        -ms-flex-order: 3;
+        order: 3;
     }
     .idc-gallery.idc-2 .idc-img:nth-child(8) {
         -webkit-box-ordinal-group: 6;
-            -ms-flex-order: 5;
-                order: 5;
+        -ms-flex-order: 5;
+        order: 5;
     }
     .idc-gallery.idc-2 .idc-img:nth-child(9) {
         -webkit-box-ordinal-group: 5;
-            -ms-flex-order: 4;
-                order: 4;
+        -ms-flex-order: 4;
+        order: 4;
     }
     .idc-gallery.idc-2 .idc-img:nth-child(10),
     .idc-gallery.idc-2 .idc-img:nth-child(11) {
         display: block;
         -webkit-box-ordinal-group: 7;
-            -ms-flex-order: 6;
-                order: 6;
+        -ms-flex-order: 6;
+        order: 6;
     }
     .idc-gallery.idc-3 .idc-img:nth-child(1),
     .idc-gallery.idc-3 .idc-img:nth-child(2) {
@@ -581,19 +579,19 @@
     }
     .idc-gallery.idc-3 .idc-img:nth-child(5) {
         -webkit-box-ordinal-group: 3;
-            -ms-flex-order: 2;
-                order: 2;
+        -ms-flex-order: 2;
+        order: 2;
     }
     .idc-gallery.idc-3 .idc-img:nth-child(6) {
         -webkit-box-ordinal-group: 2;
-            -ms-flex-order: 1;
-                order: 1;
+        -ms-flex-order: 1;
+        order: 1;
     }
     .idc-gallery.idc-3 .idc-img:nth-child(7),
     .idc-gallery.idc-3 .idc-img:nth-child(8) {
         -webkit-box-ordinal-group: 4;
-            -ms-flex-order: 3;
-                order: 3;
+        -ms-flex-order: 3;
+        order: 3;
     }
     .idc-gallery.idc-3 .idc-img:nth-child(9) {
         display: none;
@@ -601,8 +599,8 @@
     .idc-gallery.idc-3 .idc-img:nth-child(10) {
         display: block;
         -webkit-box-ordinal-group: 5;
-            -ms-flex-order: 4;
-                order: 4;
+        -ms-flex-order: 4;
+        order: 4;
         width: 100%;
     }
     /* *************your************ */
@@ -623,8 +621,8 @@
     .idc-pluses .idc-title-block {
         padding: 15px 19px;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
     }
     .idc-pluses .idc-title {
         width: 253px;
@@ -636,12 +634,9 @@
     }
     .idc-your .idc-item {
         width: 100%;
-        height: 45vw;
+        /* height: 45vw; */
     }
     .idc-your .idc-item-img {
-        height: 100%;
-    }
-    .idc-your .idc-item-img > img {
         height: 100%;
     }
     .idc-your .idc-item:nth-child(2) .idc-text-2 {
@@ -656,18 +651,18 @@
     }
     .idc-your .idc-item:nth-child(2) {
         -webkit-box-ordinal-group: 3;
-            -ms-flex-order: 2;
-                order: 2;
+        -ms-flex-order: 2;
+        order: 2;
     }
     .idc-your .idc-item:nth-child(3) {
         -webkit-box-ordinal-group: 2;
-            -ms-flex-order: 1;
-                order: 1;
+        -ms-flex-order: 1;
+        order: 1;
     }
     .idc-your .idc-item:nth-child(4) {
         -webkit-box-ordinal-group: 4;
-            -ms-flex-order: 3;
-                order: 3;
+        -ms-flex-order: 3;
+        order: 3;
     }
     /* *************pluses ************ */
     .idc-pluses .idc-container {
@@ -706,11 +701,11 @@
     .idc-story .idc-title-block {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
         -webkit-box-align: baseline;
-            -ms-flex-align: baseline;
-                align-items: baseline;
+        -ms-flex-align: baseline;
+        align-items: baseline;
     }
     .idc-story .idc-title-wrapper {
         width: 100%;
@@ -742,8 +737,8 @@
     .idc-story .idc-content {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
     }
 
     .idc-woman-block,
