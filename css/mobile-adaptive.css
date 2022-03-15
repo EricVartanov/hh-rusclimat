@@ -76,7 +76,7 @@
     .idc-gallery .idc-container {
         padding-top: 15px;
     }
-    .idc-gallery .idc-svg > img{
+    .idc-gallery .idc-svg > img {
         width: 76.5%;
     }
     /* *************your************ */
@@ -302,7 +302,7 @@
     .idc-gallery .idc-container {
         padding-top: 18px;
     }
-    .idc-gallery .idc-svg > img{
+    .idc-gallery .idc-svg > img {
         width: 79%;
     }
     /* *************your************ */
@@ -453,11 +453,17 @@
     }
     /* ************about************ */
     .idc-about .idc-container {
+        padding-top: 0;
+        padding-bottom: 0;
+        background: none;
+    }
+    .idc-about .idc-wrapper {
         padding-top: 30px;
         padding-bottom: 30px;
+        background: #0066b1;
     }
     .idc-about .idc-title-block {
-        padding: 0;
+        padding: 0 12px;
     }
     .idc-about .idc-title {
         padding-top: 0;
@@ -475,7 +481,7 @@
 
     .idc-swiper-button-next,
     .idc-swiper-button-prev {
-        top: 18vw;
+        top: 26vw;
         width: 2vw;
         height: 4vw;
     }
@@ -505,11 +511,11 @@
     }
 
     /* ************gallery*********** */
-    .idc-gallery .idc-svg > img{
+    .idc-gallery .idc-svg > img {
         width: 39vw;
+        height: 29.2vw;
     }
     .idc-gallery .idc-img {
-    height: 29.2vw;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -655,14 +661,20 @@
         height: 100%;
     }
     .idc-your .idc-item:nth-child(2) .idc-text-2 {
-        max-width: 40vw;
-        margin: 0;
+        max-width: 26vw;
+        margin: 0 auto;
     }
     .idc-your .idc-item:last-child .idc-text-2 {
-        margin: 0;
+        max-width: 26vw;
+        margin: 0 auto;
     }
+
     .idc-your .idc-item-txt {
         padding-left: 10px;
+    }
+    .idc-your .idc-item:last-child .idc-item-txt,
+    .idc-your .idc-item:nth-child(2) .idc-item-txt {
+        padding-left: 0;
     }
     .idc-your .idc-item:nth-child(2) {
         -webkit-box-ordinal-group: 3;
@@ -679,6 +691,7 @@
         -ms-flex-order: 3;
         order: 3;
     }
+
     /* *************pluses ************ */
     .idc-pluses .idc-container {
         padding-top: 13px;
@@ -791,8 +804,14 @@
         margin-top: 15px;
     }
     .idc-footer .idc-container {
+        padding-top: 0;
+        padding-bottom: 0;
+        background: none;
+    }
+    .idc-footer .idc-content {
         padding-top: 14px;
         padding-bottom: 8px;
+        background: #0066b1;
     }
     .idc-footer .idc-icon {
         width: 42px;
