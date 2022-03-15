@@ -1,5 +1,3 @@
-
-
 @font-face {
     font-family: "Tahoma";
     src: url("Tahoma-Bold.eot");
@@ -226,9 +224,10 @@ body {
 }
 .idc-head .idc-people-block {
     margin-top: 90px;
+    align-items: flex-end;
 }
 .idc-head .idc-woman {
-    width: 512px;
+    width: 514px;
 }
 .idc-head .idc-man {
     width: 485px;
@@ -322,15 +321,25 @@ body {
 }
 .idc-gallery .idc-img {
     width: 33.333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.idc-gallery .idc-svg > img {
+    width: auto;
 }
 
 .idc-gallery.idc-1 .idc-img:nth-child(10),
 .idc-gallery.idc-2 .idc-img:nth-child(10),
 .idc-gallery.idc-2 .idc-img:nth-child(11) {
     display: none;
+    justify-content: center;
+    align-items: center;
 }
-.idc-gallery.idc-3 .idc-img:nth-child(10){
+.idc-gallery.idc-3 .idc-img:nth-child(10) {
     display: none;
+    justify-content: center;
+    align-items: center;
 }
 /* *************your************ */
 .idc-your .idc-container {
@@ -348,19 +357,19 @@ body {
 .idc-your .idc-item {
     width: 50%;
     -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
 }
 .idc-your .idc-item-img {
     width: 50%;
 }
 .idc-your .idc-item-txt {
     -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     height: 100%;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     padding-left: 20px;
 }
 .idc-your .idc-text-2 {
@@ -384,8 +393,8 @@ body {
     padding-bottom: 63px;
     padding-left: 50px;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 .idc-pluses .idc-title {
     width: 639px;
@@ -396,8 +405,8 @@ body {
     margin-left: auto;
 }
 .idc-pluse {
-    width: calc(25% - 3.75px);
-    margin-left: 5px;
+    width: calc(25% - 2.5px);
+    margin-left: auto;
 }
 .idc-pluse:nth-child(1),
 .idc-pluse:nth-child(5) {
@@ -416,8 +425,8 @@ body {
 }
 .idc-story .idc-title-block {
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 .idc-story .idc-title-wrapper {
     padding-top: 32px;
@@ -442,8 +451,8 @@ body {
     background: #85b7e3;
     width: 50%;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 .idc-man-block {
     padding-right: 25px;
@@ -456,11 +465,11 @@ body {
     padding-top: 34px;
 }
 .idc-story .idc-man {
-    width: 422px;
+    width: 424px;
     margin-left: auto;
 }
 .idc-story .idc-woman {
-    width: 357px;
+    width: 358px;
     margin-right: auto;
     margin-bottom: -1px;
 }
@@ -471,8 +480,8 @@ body {
     max-width: 160px;
     text-decoration: none;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 .idc-play-wrapper .idc-text-5 {
     color: #ffffff;
